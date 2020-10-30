@@ -9,7 +9,85 @@
   <link rel="stylesheet" href="./src/style/index.css">
 </head>
 <body>
-  Hello World
+  <header>
+    <span class="left">Home</span>
+    <span>World</span>
+    <span>Technology</span>
+    <span>Design</span>
+    <span>Culture</span>
+    <span>Business</span>
+    <span>Politics</span>
+    <span>Opinion</span>
+    <span>Science</span>
+    <span>Health</span>
+  </header>
+
+  <aside class="left-aside">
+    <div class="about">
+      <h1>About</h1>
+      <p>Welcome to the Android developer guides. These documents teach you how to build Android apps using APIs in the Android framework and other libraries.</p>      </div>
+    <div class="archives">
+      <h1>Archives</h1>
+      <ul>
+        <li><a href="">January 2020</a></li>
+        <li><a href="">January 2019</a></li>
+        <li><a href="">January 2002</a></li>
+        <li><a href="">January 1111</a></li>
+        <li><a href="">January</a></li>
+        <li><a href="">January</a></li>
+        <li><a href="">January 4444</a></li>
+        <li><a href="">January 23232</a></li>
+        <li><a href="">January444</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <div class="content-left">
+      <div class="content1">
+        <img src="https://cdn.pixabay.com/photo/2020/09/23/19/58/ghost-5596921_1280.jpg" alt="" style="height: 150px; width: 349px;">
+        <div class="article">
+          <h1>Article 1</h1>
+          <p>Welcome to the Android developer guides. These documents teach you how to build Android apps using APIs in the Android framework and other libraries.</p>      
+        </div>
+        </div>
+
+      <div class="content2">
+        <img src="https://cdn.pixabay.com/photo/2020/09/23/19/58/ghost-5596921_1280.jpg" alt="" style="height: 150px; width: 349px;">
+        <div class="article">
+          <h1>Article 2</h1>
+          <p>Welcome to the Android developer guides. These documents teach you how to build Android apps using APIs in the Android framework and other libraries.</p>      
+        </div>
+      </div>
+    </div>
+
+    <div class="content-right">
+      <div class="content3">
+        <img src="https://cdn.pixabay.com/photo/2020/09/23/19/58/ghost-5596921_1280.jpg" alt="" style="height: 150px; width: 349px;">
+        <div class="article">
+          <h1>Article 3</h1>
+          <p>An activity provides the window in which the app draws its UI. 
+            This window typically fills the screen, but may be smaller than the screen and float on top of other windows. 
+            Generally, one activity implements one screen in an app. 
+            For instance, one of an app’s activities may implement a Preferences screen, while another activity implements a Select Photo screen.
+            Most apps contain multiple screens, which means they comprise multiple activities. 
+            Typically, one activity in an app is specified as the main activity, which is the first screen to appear when the user launches the app. 
+            Each activity can then start another activity in order to perform different actions. 
+            For example, the main activity in a simple e-mail app may provide the screen that shows an e-mail inbox. From there, 
+            the main activity might launch other activities that provide screens for tasks like writing e-mails and opening individual e-mails.</p>      
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <aside class="right-aside">
+    <form action="" class="sign-in">
+      <input type="text" placeholder="Email address">
+      <input type="text" placeholder="Password">
+      <button>Sign in</button>
+    </form>
+  </aside>
+
   <script src="src/app.js"></script>
 </body>
 </html>

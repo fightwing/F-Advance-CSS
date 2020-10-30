@@ -18,3 +18,93 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: black;
+  color: white;
+  height: 80px;
+  padding: 20px 0;
+}
+header>span {
+  width: 70px;
+  height: 40px;
+  margin: 0 40px;
+  font-size: 25px;
+}
+
+.left {
+  margin-left: 60px;
+}
+
+aside {
+  width:200px;
+}
+
+.left-aside {
+  margin-top: 60px;
+  float: left;
+}
+
+.right-aside {
+  float: right;
+}
+
+main {
+  margin: 0 350px;
+  padding: 30px 0;
+}
+
+.about {
+  margin-left: 60px;
+  padding: 20px;
+  width: 200px;
+  background-color:lightgray;
+}
+
+.about>h1 {
+  font-weight: bolder;
+  font-style: italic;
+}
+.archives>h1 {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.archives {
+  margin-left: 60px;
+  padding: 20px;
+  width: 200px;
+}
+
+.content1 {
+  width: 350px;
+  margin: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+.content2 {
+  width: 350px;
+  margin: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+.content-left{
+  float: left;
+  
+}
+.content-right {
+  float: right;
+}
+.content3 {
+  width: 350px;
+  margin: 30px 200px 30px 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+.article {
+  padding: 5px;
+}
