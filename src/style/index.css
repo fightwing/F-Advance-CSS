@@ -46,7 +46,17 @@ aside {
 }
 
 .right-aside {
-  float: right;
+  width: 200px;
+  height: 250px;
+  margin-left: 1400px;
+  text-align: center;
+  padding: 30px;
+  background-color: lightgray;
+  top: calc(calc(100% - 142px)/2 - 90px + 50px);
+}
+
+.sign-in {
+  height: 200px;
 }
 
 main {
@@ -107,4 +117,9 @@ main {
 
 .article {
   padding: 5px;
+}
+.sign-in>button {
+  width: 150px;
+  height: 20px;
+  background-color: rgb(51, 124, 246);
 }
