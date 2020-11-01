@@ -52,7 +52,6 @@ aside {
   text-align: center;
   padding: 30px;
   background-color: lightgray;
-  top: calc(calc(100% - 142px)/2 - 90px + 50px);
 }
 
 .sign-in {
